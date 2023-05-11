@@ -1,0 +1,166 @@
+body {
+    background-color: #CCB1AF !important;
+}
+
+
+.announcement-bar{
+    max-height: 23px !important;
+    text-align: center;
+}
+
+.annoucement-text p{
+    font-weight: 300;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.navbar-nav {
+  margin: 0;
+}
+
+.ul-inline ul li{
+    display: inline;
+}
+
+.ul-black a{
+    color: inherit; 
+    text-decoration: inherit; 
+}
+
+.nav-ul {
+    margin-top: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
+}
+
+/* .icon:hover {
+  outline: 2px solid black;
+} */
+
+.copyright_section {
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: white;
+   text-align: center;
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+    .small_screen_hide{
+        display: none !important;
+    }
+
+    .navbar-toggler {
+        display: inline !important;
+    }
+
+    .sidenav {
+        padding-top: 15px;
+        background-color: rgb(0, 0, 0, 0.9);
+        top: 140px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+
+    .modal-dialog {
+        max-width: 100% !important;
+        margin-top: 0 !important;
+        border: none;
+        box-sizing: unset !important;
+    }
+}
+
+@media (max-width: 575px) {
+    .small_screen_hide{
+        display: none !important;
+    }
+
+    .navbar-toggler {
+        display: inline !important;
+    }
+
+    .sidenav {
+        padding-top: 15px;
+        background-color: rgb(0, 0, 0, 0.9);
+        top: 140px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+
+    .modal-dialog {
+        max-width: 100% !important;
+        margin-top: 0 !important;
+        border: none;
+        box-sizing: unset !important;
+    }
+}
+
+.font-size-side-icon {
+    font-size: 2rem;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 134px;
+    left: 0;
+    background-color: #CCB1AF;
+    overflow-x: hidden;
+    transition: 0.25s;
+    padding-top: 150px;
+    text-align: center;
+    opacity: 0.9;
+}
+
+.sidenav a {
+    padding: 4px 8px 55px 8px;
+    text-decoration: none;
+    font-size:x-large;
+    color: #000000;
+    display: block;
+    transition: 0.1s;
+}
+
+.sidenav a:hover {
+    color: #FFDEDB;
+}
+
+/* .sidenav .closebtn {
+    
+    font-size: 45px;
+    margin-left: 5rem;
+    text-align: left;
+} */
+
+.sidenav {
+    z-index: 5;
+    background-color: #CCB1AF;
+}
+
+.modal-dialog {
+    max-width: 100% !important;
+    margin-top: 0 !important;
+    border: none;
+    box-sizing: unset !important;
+}
+
+.modal-content {
+    background-color: #CCB1AF !important;
+    height: 150px !important;
+}
+/* .search-modal {
+   position: fixed;
+   left: 0;
+   top: 0;
+   height: 150px;
+   width: 100%;
+   color: white;
+   text-align: center;
+   background-color: #CCB1AF;
+} */
