@@ -1,0 +1,35 @@
+.announcement-bar{
+    max-height: 23px !important;
+    text-align: center;
+}
+
+.annoucement-text p{
+    font-weight: 300;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.navbar-nav {
+  margin: 0;
+}
+
+.ul-inline ul li{
+    display: inline;
+}
+
+.ul-black a{
+    color: inherit; 
+    text-decoration: inherit; 
+}
+
+.nav-ul {
+    margin-top: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
+}
+
+.carousel-inner img{
+    width: 1500px;
+    height:500px;
+}
